@@ -1,7 +1,7 @@
 package scaleway
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/logging"
 	sdkLogger "github.com/scaleway/scaleway-sdk-go/logger"
